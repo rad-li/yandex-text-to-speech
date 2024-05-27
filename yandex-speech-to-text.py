@@ -10,7 +10,7 @@ import subprocess
 url = 'http://tts.voicetech.yandex.net/generate?'
 
 # текст для озвучивания
-text = "привет"
+text = input("Введите текст для озвучивания: ")
 
 # получаем звук по ссылке и проигрываем с помощью mplayer
 subprocess.run(["mplayer", "-really-quiet", "-nolirc", 'http://tts.voicetech.yandex.net/tts?format=mp3&quality=hi&lang=ru_RU&text='+text])
