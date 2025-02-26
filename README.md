@@ -1,4 +1,4 @@
-# yandex-speech-to-text
+# yandex-text-to-speech
 
 Text to speech на python
 Озвучивания  текста на питоне с помошью синтезатора речи Яндекса
